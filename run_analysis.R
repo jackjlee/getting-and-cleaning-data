@@ -76,8 +76,8 @@ tidy_data_2 <- aggregate(. ~ Subject + Activity,
 ## -----------------------------------------------------------------------------
 ## Output as files
 
-write.csv(tidy_data_1,file="tidy_data_1.csv")
-write.csv(tidy_data_2,file="tidy_data_2.csv")
+write.csv(tidy_data_1,file="tidy_data_1.csv",row.names=FALSE)
+write.csv(tidy_data_2,file="tidy_data_2.csv",row.names=FALSE)
 
 ## -----------------------------------------------------------------------------
 ## Cleanup
